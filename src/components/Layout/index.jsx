@@ -1,8 +1,12 @@
 import NavBar from "../NavBar"
+import SideBarNav from "../SideBarNav";
 
 const Layout = () => {
     return(
-        <NavBar />
+        <div>
+            <NavBar />
+            <SideBarNav />
+        </div>
     )
 }
 
