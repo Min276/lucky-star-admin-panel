@@ -4,7 +4,7 @@ const NavBar = () => {
       className="navbar navbar-expand-sm bg-white"
       style={{ boxShadow: "0 0  3px grey" }}
     >
-      <div className="d-flex px-5 w-100 justify-content-between align-items-center">
+      <div className="d-flex px-4 w-100 justify-content-between align-items-center">
         <a href="/" className="navbar-brand text-danger fw-semibold">
           <img
             src="/assets/logo.png"
