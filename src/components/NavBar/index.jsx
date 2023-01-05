@@ -30,9 +30,9 @@ const NavBar = () => {
           <li className="nav-item">
             <select className="form-select" aria-label="Default select example">
               <option defaultValue value="en">
-                EN
+                English
               </option>
-              <option value="cn">CN</option>
+              <option value="zh">中文字</option>
             </select>
           </li>
           <li className="nav-item">
