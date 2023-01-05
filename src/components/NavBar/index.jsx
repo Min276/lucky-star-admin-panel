@@ -1,8 +1,8 @@
 const NavBar = () => {
   return (
-    <div
-      className="navbar navbar-expand-sm bg-white"
-      style={{ boxShadow: "0 0  3px grey" }}
+    <nav
+      className="navbar navbar-expand-sm fixed-top bg-white"
+      style={{ boxShadow: "0 0  1px grey" }}
     >
       <div className="d-flex px-4 w-100 justify-content-between align-items-center">
         <a href="/" className="navbar-brand text-danger fw-semibold">
@@ -30,9 +30,9 @@ const NavBar = () => {
           <li className="nav-item">
             <select className="form-select" aria-label="Default select example">
               <option defaultValue value="en">
-                EN
+                English
               </option>
-              <option value="cn">CN</option>
+              <option value="zh">中文字</option>
             </select>
           </li>
           <li className="nav-item">
@@ -48,7 +48,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -1,12 +1,16 @@
-import CountCardComponent from "./components/CountCards";
-import Layout from "./components/Layout"
+import CountCardsSection from "./components/CountCards";
+import EmptyCards from "./components/EmptyCards";
+import Footer from "./components/Footer";
+import Layout from "./components/Layout";
 
 const App = () => {
-    return(
-        <Layout>
-            <CountCardComponent />
-        </Layout>
-    )
-}
+  return (
+    <Layout>
+      <CountCardsSection />
+      <EmptyCards />
+      <Footer />
+    </Layout>
+  );
+};
 
 export default App;
