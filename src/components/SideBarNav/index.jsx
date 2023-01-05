@@ -1,14 +1,12 @@
 import SideBarNavItem from "./SideBarNavItem";
+import styles from "./SideBar.module.css";
 
 const SideBarNav = () => {
-    return(
-        <div style={{ width: "12rem",
-            background: "white",
-            boxShadow: "0px 1px 3px grey",
-            padding: "1rem" }}>
-           <SideBarNavItem />
-        </div>
-    )
-}
+  return (
+    <div className={styles.sideBar_Nav}>
+      <SideBarNavItem />
+    </div>
+  );
+};
 
 export default SideBarNav;

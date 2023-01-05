@@ -1,0 +1,10 @@
+.navBar_Tab {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: #6c757d!important;
+}
+
+.navBar_Tab:hover {
+    color: #212529!important;
+}
