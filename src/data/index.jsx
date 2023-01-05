@@ -1,58 +1,81 @@
 export const sideBarData = [
     {
         title: "Dashboard",
-        icon: "home"
+        icon: "home",
+        route: "/"
+    },
+    {
+        tabTitle: "Applications"
     },
     {
         title: "Avatars",
-        icon: "account_circle"
+        icon: "account_circle",
+        route: "/avatars"
     },
     {
         title: "Categories",
-        icon: "category"
+        icon: "category",
+        route: "/categories"
     },
     {
         title: "Lucky Draw",
-        icon: "shapes"
+        icon: "shapes",
+        route: "/lucky-draw"
     },
     {
         title: "Products",
-        icon: "shopping_bag"
+        icon: "shopping_bag",
+        route: "/products"
     },
     {
         title: "Media",
-        icon: "perm_media"
+        icon: "perm_media",
+        route: "/media"
     },
     {
         title: "Result",
-        icon: "receipt_long"
+        icon: "receipt_long",
+        route: "/result"
     },
     {
         title: "Shops",
-        icon: "store"
+        icon: "store",
+        route: "/shops"
     },
     {
         title: "Tickets",
-        icon: "sell"
+        icon: "sell",
+        route: "/tickets"
     },
     {
         title: "Users",
-        icon: "group"
+        icon: "group",
+        route: "/users"
+    },
+    {
+        tabTitle: "Authentication"
     },
     {
         title: "Login",
-        icon: "login"
+        icon: "login",
+        route: "/login"
     },
     {
         title: "Register",
-        icon: "person"
+        icon: "person",
+        route: "/register"
+    },
+    {
+        tabTitle: "Extra"
     },
     {
         title: "Document",
-        icon: "edit_note"
+        icon: "edit_note",
+        route: "/document"
     },
     {
         title: "Logout",
-        icon: "logout"
+        icon: "logout",
+        route: "/logout"
     }
 ]
