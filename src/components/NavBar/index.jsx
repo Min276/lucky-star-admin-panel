@@ -9,18 +9,20 @@ const NavBar = () => {
           <img
             src="/assets/logo.png"
             alt="logo"
-            style={{ width: "3.5rem", height: "3.5rem" }}
+            style={{ width: "3", height: "3rem" }}
           />
           <span className="text-danger fw-bold text-uppercase">
             &nbsp; Lucky
-          </span>
+          </span>{" "}
           Star
         </a>
         <ul className="navbar-nav d-flex align-items-center gap-4">
           <li className="nav-item">
             <a href="/" className="nav-link">
-              <div className="d-flex">
-                <span className="material-symbols-outlined">notifications</span>
+              <div className="d-flex align-items-start">
+                <span className="material-symbols-outlined h3 mb-0">
+                  notifications
+                </span>
                 <span className="badge bg-danger rounded-pill">5</span>
               </div>
             </a>
@@ -39,9 +41,9 @@ const NavBar = () => {
                 src="/assets/avatar.jpg"
                 alt="avatar"
                 className="rouned-full "
-                style={{ width: "3.5rem", height: "3.5rem" }}
+                style={{ width: "3rem", height: "3rem" }}
               />
-              <span> Hello, Min Khant</span>
+              <span className="fw-medium"> Hello, Min Khant</span>
             </a>
           </li>
         </ul>
