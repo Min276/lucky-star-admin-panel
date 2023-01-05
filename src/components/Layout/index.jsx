@@ -1,15 +1,15 @@
 import NavBar from "../NavBar";
 import SideBarNav from "../SideBarNav";
+import styles from "./layout.module.css";
 
 const Layout = ({ children }) => {
   return (
     <div>
       <NavBar />
-      <div className="d-flex" style={{ paddingTop: "5rem" }}>
+      <div className={styles.main_wrapper}>
         <SideBarNav />
         <div
-          className="d-block w-100"
-          style={{ marginLeft: "240px", background: "#f9fbfd" }}
+          className={styles.wrapper}
         >
           <div className="container">{children}</div>
         </div>

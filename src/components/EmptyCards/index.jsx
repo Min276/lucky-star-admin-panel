@@ -5,7 +5,7 @@ const EmptyCards = () => {
     <div className="d-flex mt-4 align-items-center justify-content-center">
       <div className="row w-100" style={{ rowGap: "1.5rem" }}>
        { emptyCardData.map((data, index) => (
-        <div className="col-12 col-md-6 col-xl-4" key={index}>
+        <div className="col-12 col-lg-6 col-xxl-4" key={index}>
           <div
             className="card"
             key={index}

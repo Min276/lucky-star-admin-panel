@@ -1,0 +1,23 @@
+.wrapper {
+    display: block;
+    width: 100%;
+    margin-left: 240px;
+    background: #f9fbfd;
+}
+
+.main_wrapper {
+    display: flex;
+    padding-top: 5rem;
+}
+
+@media (max-width: 699px){
+    .wrapper {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_wrapper {
+        padding-top: 4rem;
+    }
+}
