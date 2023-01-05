@@ -1,8 +1,11 @@
+import CountCardComponent from "./components/CountCards";
 import Layout from "./components/Layout"
 
 const App = () => {
     return(
-        <Layout />
+        <Layout>
+            <CountCardComponent />
+        </Layout>
     )
 }
 

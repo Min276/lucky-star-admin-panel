@@ -79,3 +79,24 @@ export const sideBarData = [
         route: "/logout"
     }
 ]
+
+export const countCardData = [
+    {
+        title: "236",
+        status: "+18.33%",
+        text: "New Clients"
+    },
+    {
+        title: "$18,306",
+        text: "Earnings of Month"
+    },
+    {
+        title: "1538",
+        status: "-18.33%",
+        text: "New Projects"
+    },
+    {
+        title: "864",
+        text: "Projects"
+    }
+]
