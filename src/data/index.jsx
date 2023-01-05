@@ -100,3 +100,30 @@ export const countCardData = [
         text: "Projects"
     }
 ]
+
+export const emptyCardData = [
+    {
+        title: "This is card title",
+        text: "This is card text"
+    },
+    {
+        title: "This is card title",
+        text: "This is card text"
+    },
+    {
+        title: "This is card title",
+        text: "This is card text"
+    },
+    {
+        title: "This is card title",
+        text: "This is card text"
+    },
+    {
+        title: "This is card title",
+        text: "This is card text"
+    },
+    {
+        title: "This is card title",
+        text: "This is card text"
+    }
+]
