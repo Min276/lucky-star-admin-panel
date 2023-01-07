@@ -10,3 +10,10 @@
     position: fixed;
     overflow-y: auto;
 }
+
+
+@media (max-width: 699px) {
+    .sideBar_Nav {
+        display: none;
+    }
+}

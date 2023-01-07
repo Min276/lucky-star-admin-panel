@@ -1,8 +1,8 @@
 const NavBar = () => {
   return (
-    <div
-      className="navbar navbar-expand-sm bg-white"
-      style={{ boxShadow: "0 0  3px grey" }}
+    <nav
+      className="navbar navbar-expand-sm fixed-top bg-white"
+      style={{ boxShadow: "0 0  1px grey" }}
     >
       <div className="d-flex px-4 w-100 justify-content-between align-items-center">
         <a href="/" className="navbar-brand text-danger fw-semibold">
@@ -16,7 +16,7 @@ const NavBar = () => {
           </span>{" "}
           Star
         </a>
-        <ul className="navbar-nav d-flex align-items-center gap-4">
+        <ul className="navbar-nav d-none d-sm-flex flex-row align-items-center gap-4">
           <li className="nav-item">
             <a href="/" className="nav-link">
               <div className="d-flex align-items-start">
@@ -29,10 +29,10 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
             <select className="form-select" aria-label="Default select example">
-              <option defaultValue value="en">
+              <option defaultValue value="en" >
                 EN
               </option>
-              <option value="cn">CN</option>
+              <option value="zh" >CN</option>
             </select>
           </li>
           <li className="nav-item">
@@ -43,12 +43,12 @@ const NavBar = () => {
                 className="rouned-full "
                 style={{ width: "3rem", height: "3rem" }}
               />
-              <span className="fw-medium"> Hello, Min Khant</span>
+              <span className="fw-medium d-none d-md-inline-block"> Hello, Min Khant</span>
             </a>
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
